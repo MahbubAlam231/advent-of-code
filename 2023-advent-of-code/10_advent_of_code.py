@@ -84,7 +84,7 @@ def full_loop():# {{{
 loop = full_loop()
 
 def part_1():
-    
+
     return len(loop)//2
 
 print(part_1())
@@ -95,7 +95,7 @@ ts = time.time()
 def part_2():# {{{
     """
     Using shoelace formula and Pick's theorem
-    Num of interior points = area + 1 - boundary_points/2
+    Num of interior points = area_bounded_by_loop + 1 - boundary_points/2
 
     """
 
